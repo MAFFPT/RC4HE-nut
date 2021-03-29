@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM scratch
 LABEL maintainer "Marco Felicio (maffpt@gmail.com)"
 
 # standard stuff
