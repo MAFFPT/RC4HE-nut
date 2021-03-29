@@ -1,7 +1,7 @@
 FROM scratch
 LABEL maintainer="Marco Felicio (maffpt@gmail.com)"
 
-# standard stuff
+# be sure to have apt packages up-to-date
 RUN apt-get update \
     apt-get upgrade
 
@@ -12,8 +12,5 @@ RUN apt-get install nut nut-client nut-server
 # this is where nut config files will be stored and updated with this specific nut configuration settings
 WRKDIR "/etc/nut"
 
-
-# create a soft link from the container folder /etc/nut to host folder /RP4HE/nut
-RUN ln /etc/nut 
 
 EXPOSE 3493
