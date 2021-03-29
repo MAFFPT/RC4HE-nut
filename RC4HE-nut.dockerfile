@@ -1,5 +1,5 @@
 FROM scratch
-LABEL maintainer "Marco Felicio (maffpt@gmail.com)"
+LABEL maintainer="Marco Felicio (maffpt@gmail.com)"
 
 # standard stuff
 RUN apt-get update \
