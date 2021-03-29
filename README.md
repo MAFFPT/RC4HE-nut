@@ -1,3 +1,3 @@
 # Raspberry Pi Companion for Hubitat Elevation Project
-## NUT - Network UPS Tools
+## NUT - Network UPS Tools Docker
 ### Introduction
